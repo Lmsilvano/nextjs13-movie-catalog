@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         openSans: ["var(--font-Open Sans)"],
       },
+      gridTemplateColumns: {
+        fluid: 'repeat(auto-fit, minmax(15rem,1fr))',
+      }
     },
   },
   plugins: [],

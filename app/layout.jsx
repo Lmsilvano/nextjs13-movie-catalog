@@ -1,10 +1,10 @@
 import './globals.css'
-import { Open_Sans } from "next/font/google"
+import { Open_Sans } from 'next/font/google'
 
 const openSans = Open_Sans({
   weigth: ['420', '720'],
   subsets: ['latin'],
-  variable: "--font-Open Sans"
+  variable: '--font-Open Sans',
 })
 
 export const metadata = {
@@ -15,7 +15,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${openSans.className}`}>{children}</body>
+      <body
+        className={`${openSans.className} mx-24 bg-black text-slate-50 antialiased`}
+      >
+        {children}
+      </body>
     </html>
   )
 }
