@@ -5,7 +5,8 @@ const nextConfig = {
   },
   images: {
     domains: ["tmdb.org"]
-  }
+  },
+  future: { webpack5: true }
 }
 
 module.exports = nextConfig
