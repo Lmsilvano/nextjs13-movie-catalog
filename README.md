@@ -12,8 +12,7 @@ Clone ou faça download do repositório. Com o [Node](https://nodejs.org/en) ins
 no diretório raiz execute no terminal de sua preferencia: 
 
 ```bash
-npm i 
-# or
+npm install 
 ``` 
 após a instação execute :
 
