@@ -1,45 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto de testes para teste de funcionalidades do novo Next13
 
-## Getting Started
 
-First, run the development server:
+Projeto consiste em uma aplicação simples consumindo api [TmdbAPI](https://developers.themoviedb.org/), para listagem de filmes. Projeto desenvolvido como aprendizado  e teste das novas funcionalidades de rotas, server side components e caching
+
+[Deploy do projeto](https://movie-catalog-murex.vercel.app/)
+
+
+## Rodar o projeto localmente
+
+Clone ou faça download do repositório. Com o [Node](https://nodejs.org/en) instalado em sua maquina, e
+no diretório raiz execute no terminal de sua preferencia: 
+
+```bash
+npm i 
+# or
+``` 
+após a instação execute :
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+abra [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
--> const data = await fetch(
-`https://api.themoviedb.org/3/movie/${movie}?api_key=${process.env.API_KEY}`,
-{ next: { revalidate: 200 } },
-)
-
-só faz a requisição acada 200s
