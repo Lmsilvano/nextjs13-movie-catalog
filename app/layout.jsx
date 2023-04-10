@@ -4,7 +4,7 @@ import { Open_Sans } from 'next/font/google'
 const openSans = Open_Sans({
   weigth: ['420', '720'],
   subsets: ['latin'],
-  variable: '--font-Open Sans',
+  variable: '--font-Open-Sans',
 })
 
 export const metadata = {

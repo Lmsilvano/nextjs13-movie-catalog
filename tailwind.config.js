@@ -11,10 +11,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        openSans: ["var(--font-Open Sans)"],
+        openSans: ["var(--font-Open-Sans)"],
       },
       gridTemplateColumns: {
-        fluid: 'repeat(auto-fit, minmax(15rem,1fr))',
+        fluid: "repeat(auto-fit,minmax(15rem,1fr))",
       }
     },
   },
